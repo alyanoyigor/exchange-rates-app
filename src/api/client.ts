@@ -9,10 +9,10 @@ const client = axios.create({
 client.interceptors.response.use(
   (response) => response.data,
   (response) => {
-    let error = response.response.data.error.message;
+    let error = response.response.data.message;
 
-    if (response.response.data.message) {
-      error = response.response.data.message;
+    if (response.response.data?.error?.message) {
+      error = response.response.data.error.message;
     }
 
     return Promise.reject(error);
