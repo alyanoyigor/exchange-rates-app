@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/exchange-rates-app/static/js/main.c7dcf30d.js",
+    "main.js": "/exchange-rates-app/static/js/main.c1450420.js",
     "index.html": "/exchange-rates-app/index.html",
-    "main.c7dcf30d.js.map": "/exchange-rates-app/static/js/main.c7dcf30d.js.map"
+    "main.c1450420.js.map": "/exchange-rates-app/static/js/main.c1450420.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7dcf30d.js"
+    "static/js/main.c1450420.js"
   ]
 }
