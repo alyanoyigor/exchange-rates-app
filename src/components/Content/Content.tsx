@@ -143,6 +143,7 @@ export const Content = () => {
               error={firstNumberError}
             />
             <Select
+              options={currencies}
               label="First Currency"
               value={firstCurrency}
               onChange={handleChangeFirstCurrency}
@@ -158,6 +159,7 @@ export const Content = () => {
               error={secondNumberError}
             />
             <Select
+              options={currencies}
               label="Second Currency"
               value={secondCurrency}
               onChange={handleChangeSecondCurrency}
